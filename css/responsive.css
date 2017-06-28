@@ -1,0 +1,57 @@
+/*-------responsive-------*/
+
+@media screen and (min-width: 768px){
+ 
+.container {
+  margin:0 auto;
+  max-width:768px;
+  box-shadow: 10px 20px 10px #696464;
+}
+ 
+  
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+select {
+  float:right;
+  display: inline-block;
+  width: 585px;
+  height: 40px;
+  background: rgba(211, 211, 211, .5);
+  border: none;
+  outline: none;
+  padding: 0 10px 0; /*---this keeps the text looking nice*/
+  margin:0;
+  margin-bottom:20px;
+  border-radius: 5px;
+}
+  .top label {
+  display:inline-block;
+  padding: 10px 0;
+  float:left;
+  clear:both;  
+}
+  
+  #zip {
+  display:inline-block;
+  width:30%;
+  float:none;
+  margin-left:85px;
+}
+  
+  textarea {
+    height:150px;
+    background-color:rgba(211, 211, 211, .5); 
+  }
+  
+  .top input:focus {
+  border: 1px solid #2d3945;
+  border-radius: 5px;
+  width:80%;
+}
+
+
+  
+
+}
+  
