@@ -5,11 +5,11 @@
 }
 
 
-/*--body {
+body {
   background-image: url(../img/project_3_background.png);
   background-repeat:round;
   font-family: 'Merriweather', serif;
-}moved to the responsive sheet---*/
+}
 
 header {
   background-color: #2d3945;
