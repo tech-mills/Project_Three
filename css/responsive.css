@@ -2,7 +2,15 @@
 
 @media screen and (min-width: 768px){
  
-.container {
+body {
+  background-image: url(../img/project_3_background.png);
+  background-repeat:round;
+  
+}
+  
+  
+  
+  .container {
   margin:0 auto;
   max-width:768px;
   box-shadow: 10px 20px 10px #696464;
@@ -50,7 +58,9 @@ select {
   width:80%;
 }
 
-
+  .form-box {
+    margin-bottom: 50px;
+  }
   
 
 }
